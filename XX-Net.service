@@ -1,0 +1,9 @@
+[Unit]
+Description=https://github.com/XX-net/XX-Net
+Wants=network-online.target
+After=network.target
+[Service]
+Type=simple
+ExecStart=/home/arch/Github/XX-Net/start
+[Install]
+WanteBy=multi-user.target
