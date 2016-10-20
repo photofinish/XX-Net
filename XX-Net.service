@@ -6,4 +6,4 @@ After=network.target
 Type=simple
 ExecStart=/home/arch/Github/XX-Net/start
 [Install]
-WanteBy=multi-user.target
+WantedBy=multi-user.target
